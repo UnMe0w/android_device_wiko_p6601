@@ -3,38 +3,38 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/wiko/p6601/p6601-vendor.mk)
+$(call inherit-product-if-exists, vendor/wiko/p6609/p6609-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/wiko/p6601/overlay
+DEVICE_PACKAGE_OVERLAYS += device/wiko/p6609/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-#TARGET_OTA_ASSERT_DEVICE := p6601
+#TARGET_OTA_ASSERT_DEVICE := p6609
 
 TARGET_PROVIDES_INIT_RC := true
 
 PRODUCT_COPY_FILES += \
-    device/wiko/p6601/rootdir/init.rc:root/init.rc \
-    device/wiko/p6601/rootdir/init.target.rc:root/init.target.rc \
-    device/wiko/p6601/rootdir/init.mt6735.rc:root/init.mt6735.rc \
+    device/wiko/p6609/rootdir/init.rc:root/init.rc \
+    device/wiko/p6609/rootdir/init.target.rc:root/init.target.rc \
+    device/wiko/p6609/rootdir/init.mt6735.rc:root/init.mt6735.rc \
     device/wiko/p6601/rootdir/init.ssd.rc:root/init.ssd.rc \
-    device/wiko/p6601/rootdir/init.xlog.rc:root/init.xlog.rc \
-    device/wiko/p6601/rootdir/init.usb.rc:root/init.usb.rc \
-    device/wiko/p6601/rootdir/init.mt6735.usb.rc:root/init.mt6735.usb.rc \
-    device/wiko/p6601/rootdir/init.aee.rc:root/init.aee.rc \
-    device/wiko/p6601/rootdir/init.project.rc:root/init.project.rc \
-    device/wiko/p6601/rootdir/init.modem.rc:root/init.modem.rc \
-    device/wiko/p6601/rootdir/init.trace.rc:root/init.trace.rc \
-    device/wiko/p6601/rootdir/fstab.mt6735:root/fstab.mt6735 \
-    device/wiko/p6601/rootdir/fstab.swap:root/fstab.swap \
-    device/wiko/p6601/rootdir/ueventd.rc:root/ueventd.rc \
-    device/wiko/p6601/etc/media_codecs.xml:system/etc/media_codecs.xml \
-    device/wiko/p6601/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
-    device/wiko/p6601/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
-    device/wiko/p6601/etc/init/rild.rc:system/etc/init/rild.rc \
-    device/wiko/p6601/media_profiles.xml:system/etc/media_profiles.xml \
+    device/wiko/p6609/rootdir/init.xlog.rc:root/init.xlog.rc \
+    device/wiko/p6609/rootdir/init.usb.rc:root/init.usb.rc \
+    device/wiko/p6609/rootdir/init.mt6735.usb.rc:root/init.mt6735.usb.rc \
+    device/wiko/p6609/rootdir/init.aee.rc:root/init.aee.rc \
+    device/wiko/p6609/rootdir/init.project.rc:root/init.project.rc \
+    device/wiko/p6609/rootdir/init.modem.rc:root/init.modem.rc \
+    device/wiko/p6609/rootdir/init.trace.rc:root/init.trace.rc \
+    device/wiko/p6609/rootdir/fstab.mt6735:root/fstab.mt6735 \
+    device/wiko/p6609/rootdir/fstab.swap:root/fstab.swap \
+    device/wiko/p6609/rootdir/ueventd.rc:root/ueventd.rc \
+    device/wiko/p6609/etc/media_codecs.xml:system/etc/media_codecs.xml \
+    device/wiko/p6609/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
+    device/wiko/p6609/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
+    device/wiko/p6609/etc/init/rild.rc:system/etc/init/rild.rc \
+    device/wiko/p6609/media_profiles.xml:system/etc/media_profiles.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:system/etc/media_codecs_google_video_le.xml \
@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
     libfmjni
 
 PRODUCT_COPY_FILES += \
-    device/wiko/p6601/rootdir/etc/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    device/wiko/p6609/rootdir/etc/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
 
 # Audio componets from source
 PRODUCT_PACKAGES += \
