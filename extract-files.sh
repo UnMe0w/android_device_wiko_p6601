@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DEVICE=p6601
+export DEVICE=p6609
 export VENDOR=wiko
 
 if [ $# -eq 0 ]; then
