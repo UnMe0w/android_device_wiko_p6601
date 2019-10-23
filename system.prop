@@ -1,5 +1,5 @@
 #
-# system.prop for p6601
+# system.prop for p6609
 #
 rild.libpath=mtk-ril.so
 rild.libargs=-d /dev/ttyC0
