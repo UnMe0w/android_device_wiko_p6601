@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     device/wiko/p6609/rootdir/init.rc:root/init.rc \
     device/wiko/p6609/rootdir/init.target.rc:root/init.target.rc \
     device/wiko/p6609/rootdir/init.mt6735.rc:root/init.mt6735.rc \
-    device/wiko/p6601/rootdir/init.ssd.rc:root/init.ssd.rc \
+    device/wiko/p6609/rootdir/init.ssd.rc:root/init.ssd.rc \
     device/wiko/p6609/rootdir/init.xlog.rc:root/init.xlog.rc \
     device/wiko/p6609/rootdir/init.usb.rc:root/init.usb.rc \
     device/wiko/p6609/rootdir/init.mt6735.usb.rc:root/init.mt6735.usb.rc \
