@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVICE=p6601
+DEVICE=p6609
 VENDOR=wiko
 
 OUTDIR=vendor/$VENDOR/$DEVICE
