@@ -22,4 +22,4 @@ Camera  | 13 MP, f/2.0, autofocus, LED flash
 # Acknowledgments
 
 This is based off of the following people's work:
-- (joe2k01)[https://github.com/joe2k01/android_device_wiko_p6601]
+- [joe2k01](https://github.com/joe2k01/android_device_wiko_p6601)
