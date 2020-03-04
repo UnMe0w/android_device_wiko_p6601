@@ -1,7 +1,6 @@
-# BLU R1HD (p6601)
+# Wiko UFEEL (p6609)
 
-
-Device tree of BLU R1 HD (p6601), for building LineageOS 14.1.
+Device tree of Wiko U FEEL (p6601), for building LineageOS 14.1.
 
 # Building
 
@@ -13,18 +12,14 @@ Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 1.3 GHz Cortex-A53 MT6735
 GPU     | Mali-T720
-Memory  | 1GB RAM or 2GB RAM
+Memory  | 3GB RAM
 Shipped | Android OS, v6.0 (Marshmallow)
 Storage | 8GB or 16GB
 Battery | 2500 mAh
 Display | 5" 1280 x 720 px
-Camera  | 8 MP, f/2.0, autofocus, LED flash
+Camera  | 13 MP, f/2.0, autofocus, LED flash
 
 # Acknowledgments
 
 This is based off of the following people's work:
-
-- [olegsvs](https://github.com/olegsvs)
-- [DeckerSU](https://github.com/DeckerSU)
-- [vampirefo](https://github.com/vampirefo)
-- [jianC](https://github.com/jianC)
+- (joe2k01)[https://github.com/joe2k01/android_device_wiko_p6601]
