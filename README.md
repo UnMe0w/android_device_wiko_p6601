@@ -14,7 +14,7 @@ CPU     | Quad-core 1.3 GHz Cortex-A53 MT6735
 GPU     | Mali-T720
 Memory  | 3GB RAM
 Shipped | Android OS, v6.0 (Marshmallow)
-Storage | 8GB or 16GB
+Storage | 16GB
 Battery | 2500 mAh
 Display | 5" 1280 x 720 px
 Camera  | 13 MP, f/2.0, autofocus, LED flash
