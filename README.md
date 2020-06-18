@@ -1,6 +1,6 @@
 # Wiko UFEEL (p6609)
 
-Device tree of Wiko U FEEL (p6601), for building LineageOS 14.1.
+Device tree of Wiko U FEEL (p6609), for building LineageOS 14.1.
 
 # Building
 
